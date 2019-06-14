@@ -7,26 +7,26 @@ Replaces certain item uses with pet abilities (configured in config.json - left 
 
 ## Pet Abilities (3 minute shared cooldown)
 
-1138 - Bracing Force				Your partner is sharing its strength with you. Increases Power by 40  
-5003 - Urgent Recovery III			Recovers HP by 30000 per second for 5s.  
-5006 - Emergency Service III		Replenishes MP by 1000 per second for 5s.  
-5009 - Barrier III					Absorbs up to 125000 damage for 15s.  
-5015 - Rapid Growth III				Increases hunting XP rewards by 15% for 1800s.  
-5018 - Rapid Advancement III		Increases skill advancement XP rewards by 15% for 1800s.  
-5021 - Dual Boost III				Increases hunting and skill advancement XP rewards by 7.5%  
-5024 - Critical Crafting III		Increases crafting critical success chance by 20%  
-5027 - Backup Fisherman III			Increases the chance to catch BAF by 50%  
-5030 - Gathering Support III		Decreases gathering time by 20%  
+1138 | Bracing Force			| Your partner is sharing its strength with you. Increases Power by 40  
+5003 | Urgent Recovery III		| Recovers HP by 30000 per second for 5s.  
+5006 | Emergency Service III	| Replenishes MP by 1000 per second for 5s.  
+5009 | Barrier III				| Absorbs up to 125000 damage for 15s.  
+5015 | Rapid Growth III			| Increases hunting XP rewards by 15% for 1800s.  
+5018 | Rapid Advancement III	| Increases skill advancement XP rewards by 15% for 1800s.  
+5021 | Dual Boost III			| Increases hunting and skill advancement XP rewards by 7.5%  
+5024 | Critical Crafting III	| Increases crafting critical success chance by 20%  
+5027 | Backup Fisherman III		| Increases the chance to catch BAF by 50%  
+5030 | Gathering Support III	| Decreases gathering time by 20%  
 
 
 ## Items preconfigured (in config.json)
 
-Major Replenishment Potable		- Emergency Service III  
-Major Recovery Potable			- Urgent Recovery III  
-Digory's Honey Moongourd Drink	- Barrier III  
-Minor Battle Solution			- Rapid Advancement III  
-Major Battle Solution			- Dual Boost III  
-Castanica Midnight Oil			- Critical Crafting III  
+Major Replenishment Potable		| Emergency Service III  
+Major Recovery Potable			| Urgent Recovery III  
+Digory's Honey Moongourd Drink	| Barrier III  
+Minor Battle Solution			| Rapid Advancement III  
+Major Battle Solution			| Dual Boost III  
+Castanica Midnight Oil			| Critical Crafting III  
 
 
 ## Installation
