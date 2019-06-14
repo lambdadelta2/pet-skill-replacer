@@ -1,0 +1,12 @@
+{
+	"disableAutoUpdate": false,
+	"name": "pet-skill-replacer-and-user",
+	"author": "Lambda11",
+	"description": "Replaces your pet's active skill with the strongest version (40 power/5min) & Uses pet buffs manually",
+	"options": {
+		"niceName": "Pet Skill Replacer & User",
+		"guiName": "Pet Skill Replacer & User"
+	},
+	"servers": ["https://raw.githubusercontent.com/Lambda11/pet-skill-replacer-and-user/master/"],
+	"supportUrl": "https://github.com/Lambda11/pet-skill-replacer-and-user/issues"
+}

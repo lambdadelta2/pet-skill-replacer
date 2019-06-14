@@ -1,0 +1,16 @@
+{
+	"files": {
+		"README.md": "78077ee477ed00a051fced8d5be13696b5ffd0a6912c477dcf46bb40a2b76803",
+		"config.json": {
+			"overwrite": false,
+			"hash": "03f0591f5ccb157d6d0bd1421e0cbe598c755120a6df5d144dd7683fc6f29165"
+		},
+		"index.js": "045bcec2cbb9a167f2f6691587662a990a0c614e4735aa40720bd421f4fbfdf5",
+		"module.json": "7cf1875914a3154b1da01d6ea7c090ff1445b2991fd1d04ca08e1560aee2597a"
+	},
+	"defs": {
+		"C_START_SERVANT_ACTIVE_SKILL": 1,
+		"C_USE_ITEM": 3,
+		"S_LOGIN": "raw"
+	}
+}

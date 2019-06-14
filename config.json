@@ -1,0 +1,13 @@
+{
+	"ReplaceAbility": true,
+	"NewPartnerAbility": 1138,
+	"ReplaceItems": true,
+	"TheItems": {	
+					"6561": 5006,
+					"6551": 5003,
+					"80082": 5009,
+					"200997": 5018,
+					"200998": 5021,
+					"361": 5024
+				}
+}
