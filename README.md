@@ -7,6 +7,8 @@ Replaces certain item uses with pet abilities (configured in config.json - left 
 
 ## Pet Abilities (3 minute shared cooldown)
 
+Id | Name | Effect
+--- | --- | ---
 1138 | Bracing Force			| Your partner is sharing its strength with you. Increases Power by 40  
 5003 | Urgent Recovery III		| Recovers HP by 30000 per second for 5s.  
 5006 | Emergency Service III	| Replenishes MP by 1000 per second for 5s.  
@@ -21,6 +23,8 @@ Replaces certain item uses with pet abilities (configured in config.json - left 
 
 ## Items preconfigured (in config.json)
 
+Item | Partner buff
+--- | ---
 Major Replenishment Potable		| Emergency Service III  
 Major Recovery Potable			| Urgent Recovery III  
 Digory's Honey Moongourd Drink	| Barrier III  
