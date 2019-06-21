@@ -2,7 +2,7 @@ module.exports = function pet_skills(mod) {
 	
 	const command = mod.command;
 	let config = require('./config.json');
-	let petId = 0n,
+	let petId = 0n;
 	let enabled = true;
 	
 	mod.game.initialize("me");
