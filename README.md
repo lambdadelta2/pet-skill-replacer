@@ -4,6 +4,10 @@ Replaces your pet's active skill with the strongest version (40 power/5min)
 
 Replaces certain item uses with pet abilities (configured in config.json - left side is the item, see https://teralore.com/en/item/6561/?sl=1 for the IDs, right side is the pet ability, see below for the list) 
 
+## Commands
+
+!`petr` - to toggle module (defaunt: ON)  
+
 
 ## Pet Abilities (3 minute shared cooldown)
 

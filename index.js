@@ -1,13 +1,22 @@
 module.exports = function pet_skills(mod) {
 	
+	const command = mod.command;
 	let config = require('./config.json');
-	let petId = 0n;
+	let petId = 0n,
+	let enabled = true;
 	
 	mod.game.initialize("me");
 	
+	command.add('petr', {
+		$none() {
+			enabled = !enabled;
+			command.message(`${enabled ? 'En' : 'Dis'}abled`);
+		}
+	});
+	
     mod.hook('C_START_SERVANT_ACTIVE_SKILL', 1, event => {
 		petId = event.gameId;
-		if(config.ReplaceAbility && ((event.skill >= 1101 && event.skill < 1138) || event.skill === 1001))
+		if(enabled && config.ReplaceAbility && ((event.skill >= 1101 && event.skill < 1138) || event.skill === 1001))
 		{
 			event.skill = config.NewPartnerAbility;
 			return true;
@@ -15,7 +24,7 @@ module.exports = function pet_skills(mod) {
     });
 	
 	mod.hook('C_USE_ITEM', 3, event => {
-		if (config.ReplaceItems && config.TheItems[event.id])
+		if (enabled && config.ReplaceItems && config.TheItems[event.id])
 		{
 			if(petId)
 			{
@@ -26,7 +35,7 @@ module.exports = function pet_skills(mod) {
 			}
 			else
 			{
-				mod.command.message("Partner not found - You need to summon him to use his partner skill");
+				command.message("Partner not found - You need to summon him to use his partner skill");
 			}
 			return false;
 		}
