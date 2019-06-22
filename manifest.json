@@ -5,11 +5,11 @@
 			"overwrite": false,
 			"hash": "03f0591f5ccb157d6d0bd1421e0cbe598c755120a6df5d144dd7683fc6f29165"
 		},
-		"index.js": "404459ccad3ee8e7e315b574fc806af86a175bc68d0b49a23bf0e0fa5516d1f2",
+		"index.js": "08519f009b89d4cadb8cf3e03400d1eefc9f55117dd166f8f0b7f440132011e1",
+		"opcodes.json": "61c716562498a67af0cc2b9a81f5d50b4481bc900252e598a260b0f606acaa1b",
 		"module.json": "7cf1875914a3154b1da01d6ea7c090ff1445b2991fd1d04ca08e1560aee2597a"
 	},
 	"defs": {
-		"C_START_SERVANT_ACTIVE_SKILL": 1,
 		"C_USE_ITEM": 3,
 		"S_REQUEST_DESPAWN_SERVANT": 1,
 		"S_REQUEST_SPAWN_SERVANT": 1
